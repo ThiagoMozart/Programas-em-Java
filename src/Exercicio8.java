@@ -18,8 +18,9 @@ public class Exercicio8 {
                 return false;
         }
 
-        for(int i = 0 ; i <matriz[0].length ; i++){
+        for(int i = 0 ; i < matriz[0].length ; i++){
             somaComparacao = 0;
+
             for(int j = 0 ; j < matriz.length ; j++){
                 somaComparacao = somaComparacao + matriz[j][i];
             }
@@ -39,10 +40,7 @@ public class Exercicio8 {
             somaComparacao = somaComparacao + matriz[linha][j];
             linha++;
         }
-        if(somaComparacao != soma ) {
-            return false;
-        }
-        return true;
+        return somaComparacao == soma;
     }
 
     public static void main(String[] args) {

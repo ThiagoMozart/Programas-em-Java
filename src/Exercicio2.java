@@ -28,8 +28,7 @@ public class Exercicio2 {
             System.out.println("R e T são os maiores números e valem (" + r +")" );
 
         else if((s == t) && (s > r))
-            System.out.println("R e T são os maiores números e valem (" + s +")" );
-
+            System.out.println("S e T são os maiores números e valem (" + s +")" );
         }
     }
 
