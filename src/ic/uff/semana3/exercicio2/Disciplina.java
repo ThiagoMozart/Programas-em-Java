@@ -6,8 +6,24 @@ public class Disciplina {
     private int quantTopicos;
     private String topicos;
     private String resumoTopicos;
+    private double horario;
 
-    public void descricaoDisciplina(){
+    void getMateria(){
+
+    }
+
+    void setMateria(){
+
+    }
+    void mostrarEmenta(){
+
+    }
+
+    void getHorario(){
+
+    }
+
+    void setHorario(){
 
     }
 }

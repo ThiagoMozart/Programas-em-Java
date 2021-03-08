@@ -5,12 +5,17 @@ public class Aluno {
     private int idade;
     private String nome;
     private String periodo;
-    String[] materias = new String[100];
-    private double notas;
+    String[] disciplinas = new String[100];
+    private double cr;
     private boolean aprovado;
+    private double notasMateria;
 
-    private void historicoEscolar(){
+
+    void calcularCr(){
 
     }
 
+    void CalcularMediaALuno(){
+
+    }
 }

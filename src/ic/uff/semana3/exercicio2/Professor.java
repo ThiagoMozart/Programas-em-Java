@@ -6,9 +6,18 @@ public class Professor {
     private String materia;
     private String[] nomeAluno = new String[100];
     private String periodo;
-    private double CR;
+    private String[] notasAlunos = new String[100];
 
-    public void CalcularCR(){
+    void darProvas(){
 
     }
+
+    void darNotas(){
+
+    }
+
+    void darMateria(){
+
+    }
+
 }

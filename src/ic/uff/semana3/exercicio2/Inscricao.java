@@ -8,8 +8,12 @@ public class Inscricao {
     private String turma;
     private int vagas;
     private String serie;
+    private boolean trancar;
 
-    public void obetencaoHorarioAula(){
+    void trancarMateria(){
+    }
+
+    void seInscreverTurma(){
 
     }
 
